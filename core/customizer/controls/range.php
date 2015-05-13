@@ -13,6 +13,13 @@ if( !class_exists( 'Layers_Customize_Range_Control' ) ) {
 
 		public $type = 'layers-range';
 
+		public $min = '';
+
+		public $max = '';
+
+		public $step = '';
+		
+
 		public function render_content() {
 
 			$form_elements = new Layers_Form_Elements();
